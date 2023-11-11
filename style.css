@@ -549,6 +549,36 @@ text-align: center;
 
 
 
+.main-third {
+    height: auto; /* Adjust height to fit content */
+    padding: 20px 10px; /* Add some padding for better spacing */
+}
+
+.third-section {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+    width: 100%; /* Full width for better responsiveness */
+}
+
+.third-section > div {
+    text-align: center; /* Center the text within the div */
+    margin-bottom: 20px; /* Add spacing between items */
+}
+
+.third-section > div > .fa-solid {
+    margin-right: 0; /* Remove right margin for better alignment */
+    margin-bottom: 10px; /* Add spacing between icon and text */
+}
+
+.third-section > div > p {
+    margin-right: 0; /* Remove right margin for better alignment */
+}
+
+.para-text {
+    font-size: 14px; /* Adjust font size for better readability */
+}
+
+
 footer {
     color: black;
     padding: 20px;
