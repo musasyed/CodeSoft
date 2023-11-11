@@ -359,14 +359,18 @@ p{
 
 
 
-@media only screen and (max-width: 1071px) {
+@media only screen and (max-width: 1210px) {
+
+    body{
+        overflow: none;
+    }
     .first-div{
         background-color: rgb(81, 22, 184);
         display: flex;
         justify-content: space-evenly;
         height: 50px;
         align-items: center;
-     
+        overflow: none;
     }
     .first-div>div>.icons-border{
         border: none;
@@ -435,6 +439,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin-top: 25px;
+overflow: none;
 }
 .about-us-sub{
     display: flex;
@@ -489,6 +494,7 @@ text-align: center;
     justify-content: center;
     align-items: center;
     margin-top: 25px;
+    overflow: none;
 }
 
 .third-section{
@@ -517,6 +523,7 @@ text-align: center;
     height: auto; /* Adjust height to fit content */
     flex-direction: column; /* Stack items vertically */
     padding: 50px 20px; /* Add some padding for better spacing */
+    overflow: none;
 }
 
 .service-section::before {
@@ -530,6 +537,7 @@ text-align: center;
     text-align: center; /* Center the text */
     padding-top: 30px; /* Adjust padding for better spacing */
     color: black;
+    margin-bottom: 20px;
 }
 
 .service-box > div {
@@ -549,15 +557,17 @@ text-align: center;
 
 
 
+/*
+/* Third Section */
 .main-third {
     height: auto; /* Adjust height to fit content */
-    padding: 20px 10px; /* Add some padding for better spacing */
+   
 }
 
 .third-section {
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center items */
-    width: 100%; /* Full width for better responsiveness */
+   
 }
 
 .third-section > div {
@@ -568,6 +578,7 @@ text-align: center;
 .third-section > div > .fa-solid {
     margin-right: 0; /* Remove right margin for better alignment */
     margin-bottom: 10px; /* Add spacing between icon and text */
+    padding-top: 20px;
 }
 
 .third-section > div > p {
@@ -579,11 +590,26 @@ text-align: center;
 }
 
 
+
+@media only screen and (max-width: 559px) {
+
+    .first-div{
+        background-color: rgb(81, 22, 184);
+        display: flex;
+        justify-content: space-evenly;
+        height: 50px;
+        align-items: center;
+        overflow: none;
+        display: none;
+    }
+}
+
 footer {
     color: black;
     padding: 20px;
     text-align: center;
     margin-top: -50px;
+    overflow: none;
 }
 
 .footer-links {
