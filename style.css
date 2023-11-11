@@ -412,23 +412,9 @@ p{
         cursor: pointer;
         font-size: 12px;
     }
-    .nav-menu {
+
+    .un-order{
         display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 70px;
-        left: 0;
-        width: 100%;
-        background-color: #333;
-        text-align: center;
-    }
-
-    .nav-menu.show {
-        display: flex;
-    }
-
-    .toggle-btn {
-        display: block;
     }
 
     /* About Us Section */
@@ -650,5 +636,29 @@ footer {
     color: black;
     text-decoration: none;
     font-size: 20px;
+}
+}
+
+
+@media only screen and (max-width: 767px) {
+  /* Toggle Button CSS */
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    color: black;
+}
+
+.nav-menu.show {
+    display: flex;
+}
+
+.toggle-btn {
+    display: block;
 }
 }
