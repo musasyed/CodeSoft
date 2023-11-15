@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Poppins:wght@200;300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-color: white;
+
+}
+
+/* Navigation Bar  */
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar>.list>ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar>.list>ul>li{
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.logo{
+    width:120px;
+    height: 120px;
+  margin-left: 30px;
+}
+.nav-left{
+    width: 20%;
+}
+.list{
+    width: 80%;
+}
+
+
+/* Hero Section  */
+.hero-section{
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -70px;
+    
+}
+.hero-left{
+    width: 50%;
+    margin-top: 50px;
+}
+.hero-left>h1,p{
+    padding: 15px;
+}
+.hero-left>h1{
+    font-size: 3rem;
+}
+
+.hero-right{
+    width: 40%;
+    /* background-color: yellow; */
+}
+
+.hero-right>img{
+    width: 450px;
+    height: 450px;
+
+}
+.icons{
+    margin-left: 15px;
+    font-size: 25px;
+   
+}
+.icons>i{
+    padding-right: 10px;
+    color: blue;
+}
+.hero-left>button{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+.hero-left>button>a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+
+/* ABout Section */
+
+.about-section{
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 50px; */
+}
+
+.about-left{
+    width: 40%;
+}
+.about-section>.about-left>img{
+    width: 450px;
+    height: 450px;
+}
+
+.about-right{
+    width: 50%;
+}
+.about-right>h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.about-right>.icons{
+    text-align: center;
+    font-size: 2.8rem;
+}
+
+.spinner-grow{
+    display: inline-block;
+}
+
+
+
+
+/* Progress Section */
+.progress-section{
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.progress-section>.progress-right>img{
+    width: 500px;
+    height: 450px;
+    text-align: center;
+}
+.progress-right{
+    width:40% ;
+}
+.progress-left{
+    width: 50%;
+}
+.progress-left>h1,h3,.progress{
+    padding-bottom: 10px;
+}
+
+/* Portfolio */
+.portfolio{
+    /* height: 600px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    /* background-color: red; */
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    flex-basis: 2;
+}
+.projects>img{
+    width: 550px;
+    height: 400px;
+}
+
+
+/* Contact Form */
+
+.contact-from{
+    
+ 
+    margin-top: 30px;
+    text-align: center;
+    height: 300px;
+}
+.form-size{
+    /* width: 80%; */
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Footer */
+.footer{
+    margin-top: 30px;
+    border-top:1px solid blue; 
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+
+}
+
+
+
+
+/* Global Font */
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    color: blue !important;
+}
+
+button{
+    background-color: blue !important;
+    color: white;
+}
+
+li{
+    font-family: 'Ubuntu', sans-serif;
+    color: blue;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+
